@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Name
-        run: echo "Name: Shameel Ahmad"
+        run: echo "Shameel Ahmad"
       
       - name: Print Designation
-        run: echo "Designation: Junior Software Engineer"
+        run: echo "Junior Software Engineer"
