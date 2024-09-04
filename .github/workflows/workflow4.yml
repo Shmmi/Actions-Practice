@@ -1,0 +1,10 @@
+name: Print my city
+
+on: push
+
+jobs:
+ print-city:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Print City
+     run: echo "Lahore"
