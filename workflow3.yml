@@ -1,0 +1,10 @@
+name: Print Operating System
+
+on: push
+
+jobs:
+  print-os:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Operating System
+        run: uname -a
